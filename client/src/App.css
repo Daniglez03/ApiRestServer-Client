@@ -1,0 +1,218 @@
+:root {
+	--primary-color: #ffcc80;
+	--background-cell: #fff3e0;
+	--edit-color: #0d6efd;
+	--btn-Ok-color: green;
+	--delete-color: red;
+	--background-cell-light: #473654;
+	--color: #000000;
+	--background-table-color: #fff8ed;
+}
+
+body {
+	background-color: var(--background-cell);
+}
+
+a {
+	color: var(--edit-color);
+	text-decoration: none;
+	margin-right: 0.625rem;
+}
+header {
+	padding: 10px 0 10px 5px;
+	background-color: var(--primary-color);
+	font-weight: 600;
+}
+
+header, .row {
+	display: flex;
+}
+
+section {
+	margin-top: 25px;
+}
+
+.col {
+	flex: 1;
+	height: 52px;
+	border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--background-table-color);
+}
+
+.row {
+	padding: .5rem .5rem .5rem 1rem;
+}
+
+.App {
+	background-color: #fff3e0;
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 85%;
+	margin: 0px auto;
+}
+
+.title {
+	margin: 0;
+	padding: 1rem;
+	height: 50px;
+	text-align: center;
+	color: black;
+	background-color: var(--primary-color);
+}
+
+.subtitle {
+	padding-left: 1rem;
+}
+
+.space-inputs {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.infoActor {
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 20px;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 4px;	
+	border: 1px solid transparent;
+	padding: .5rem 1rem;
+	border-radius: .25rem;
+	line-height: 1.65;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: var(--btn-Ok-color);
+	border-color: var(--btn-Ok-color);
+}
+
+.btn-primary-generator-btn {
+	color: #fff;
+	font-size: 20px;
+	background-color: var(--btn-Ok-color);
+	border-color: var(--btn-Ok-color);
+	width: 120px;
+	height: 56px;
+}
+
+.btn-danger {
+	width: 100px;
+	height: 38px;
+	color: #fff;
+	background-color: #c82333;
+	border-color: #dc3545;
+}
+.btn-remove {
+	font-size: 16px;
+	color: #fff;
+	background-color: #c82333;
+	border-color: #dc3545;
+}
+
+/*====================*/
+/*Auxiliars*/
+/*====================*/
+.text-center, .centered {
+	text-align: center;
+}
+
+.mb-3 {
+	margin-bottom: 1rem;
+}
+
+.mx-3 {
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+.mr-3 {
+	margin-right: 1rem;
+}
+
+.label-form {
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+/*====================*/
+/*		 Modals       */
+/*====================*/
+.modal-content {
+	border: 1px solid;
+	border-radius: 5px;
+	width: 90%;
+	height: 335px;
+	margin: 50px auto;
+	background-color: var(--background-table-color);
+}
+
+.modal-header {
+	height: 40px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	padding: 5px;
+	background-color: var(--primary-color);
+}
+
+.modal-header h2 {
+	margin: 0;
+}
+
+.modal-body {
+	padding: 15px 15px;
+	font-size: 1.25rem;
+}
+
+.label-form {
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
+.form-control {
+	display: block;
+	height: 25px;
+	width: 100%;
+	font-size: 1rem;
+}
+/*=======================*/
+/*    	Burger Menu      */
+/*=======================*/
+
+.textMenu {
+	padding-top: 20px;
+}
+
+/*=======================*/
+/*    	Actor Table      */
+/*=======================*/
+
+.bck-color-table {
+	background-color: var(--background-table-color);
+}
+
+.table {
+	border: 1px solid;
+}
+
+.bck-footer-color {
+	background-color: var(--primary-color);
+}
+
+.columns:hover {
+	border-bottom: 3px solid;
+}
